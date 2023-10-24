@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Meu peso Ideal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Coloque seu peso e altura para o <br>calculo do seu peso ideal.</h1>
+    </header>
+    <section>
+    <div id="form">
+        <p> Peso: <input type="number" name="peso" id="peso" min="1">
+        Altura: <input type="number" name="altura" id="altura">
+        <input type="button" value="Calcular" onclick="calcular()"></p>
+    </div>
+    <div id="res">
+    Resultado:
+    </div>
+    <div>
+        <p id="eximc">O Índice de Massa Corporal (IMC) trata-se de uma medida de massa corporal e altura para se saber o peso ideal. O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em m), de acordo com a seguinte fórmula: IMC = peso / (altura x altura). O resultado do IMC é dado em kg/m2.</p>
+        <p id="eximc"> <strong>Veja a tabela de IMC abaixo:</strong></p>
+        <p><img src="tabela-de-classificacao-imc-500.png" alt="tabela imc">
+    </div>
+    </section>
+    <footer>
+        <p>&copy;Segundo</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
